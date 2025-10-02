@@ -2,6 +2,9 @@
 title: Le diagramme de cas d’utilisation (Use Case Diagram)
 description: Les diagrammes de cas d’utilisation modélisent le comportement d’un système du point de vue des utilisateurs et systèmes externes, en identifiant les fonctionnalités essentielles et leurs interactions.
 ---
+[[Index Analyse Informatique|🔙Index]] - [[Introduction aux principes d’analyse informatique|⬅️Introduction aux principes d’analyse informatique]] - ➡️
+
+---
 ## Introduction
 
 Le **diagramme de cas d’utilisation** est un outil UML qui aide à **comprendre ce que le système doit faire pour ses utilisateurs**.  
@@ -9,9 +12,9 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
 
 **À retenir :**
 
-- Permet de parler **le même langage** entre utilisateurs, analystes et développeurs.
-- Définit le **périmètre du système** et ses fonctionnalités importantes.
-- Aide à **identifier les besoins réels** grâce à des entretiens avec les utilisateurs.
+- Permet de parler le même langage entre utilisateurs, analystes et développeurs.
+- Définit le périmètre du système et ses fonctionnalités importantes.
+- Aide à identifier les besoins réels grâce à des entretiens avec les utilisateurs.
 
 > 💡 Astuce : commencez toujours par écouter les utilisateurs pour créer un diagramme clair et utile.
 
@@ -24,6 +27,7 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
 Un **acteur** représente un rôle joué par une **personne, un processus ou un système externe** qui interagit avec le système.
 
 **Représentation classique** : petit bonhomme avec le nom du rôle dessous.
+
 > [!Example] Représentation classique
 > ![[fig1.1.png]]
 
@@ -51,12 +55,15 @@ Un **acteur** représente un rôle joué par une **personne, un processus ou un 
 
 - **Représentation** : ellipse contenant un verbe à l’infinitif (ex. “Retirer de l’argent”).
 
+> [!Example] Représentation d'un cas d'usage
 >![[fig1.3.png]]
 
 
 - **Variante détaillée** : classeur stéréotypé << use case >> pour inclure attributs ou opérations.
 
+> [!Example] Représentation d'un cas d'usage sous forme d'une variante détaillé
 >![[fig1.4.png]]
+
 
 **Règles à respecter :**
 
@@ -76,6 +83,7 @@ Un **acteur** représente un rôle joué par une **personne, un processus ou un 
     - Visualiser les **interactions principales**
     - Identifier ce qui est **inclus ou exclu** du système
 
+> [!Example] Example d'un diagramme de cas d'utilisation
 >![[fig1.5.png]]
 
 
@@ -85,6 +93,7 @@ Un **acteur** représente un rôle joué par une **personne, un processus ou un 
 
 - **Association** : Une relation d'association est chemin de communication entre un acteur et un cas d'utilisation et est représenté un trait continu.
 
+> [!Example] Example d'une Relations entre Acteur et Cas d’utilisation
 >![[fig1.6.png]]
 
 #### Relations entre cas d’utilisation
@@ -98,11 +107,11 @@ Les relations permettent de **montrer les dépendances et interactions entre les
     - Extension (<< extend >>)
 
 2. **Généralisation / spécialisation** : héritage entre cas d’utilisation.
-
 - Représentation graphique :
     - Dépendances : flèche en pointillé
     - Généralisation : flèche pleine avec triangle fermé
 
+> [!Example] Example d'une Relations entre plusieurs cas d'utilisation
 >![[fig1.7.png]]
 
 ###### Relation d’inclusion (<< include >>)
@@ -116,8 +125,10 @@ Les relations permettent de **montrer les dépendances et interactions entre les
     - Ne pas abuser de la décomposition → risque de revenir à un découpage fonctionnel trop détaillé.
     - Les cas ne sont pas séquentiels : le diagramme ne représente pas l’ordre temporel.
 
-> Exemple : “Accéder aux informations d’un compte” inclut toujours “S’authentifier”.
+Exemple : “Accéder aux informations d’un compte” inclut toujours “S’authentifier”.
 
+
+> [!Example] Example d'une Relation d'inclusion
 ![[fig1.8.png]]
 ###### Relation d’extension (<< extend >>)
 
@@ -149,6 +160,7 @@ Les relations permettent de **montrer les dépendances et interactions entre les
 
 - **Généralisation** : un acteur A peut être substitué par un acteur B → B hérite de tous les cas d’A.
 
+> [!Example] Example d'une Relations entre Acteur et Acteur
 ![[fig1.9.png]]
 
 Dans l'example ci-dessus le directeur des ventes peut gérer le stock et en plus peux passer une commande et suivre une commande comme le préposé aux commandes.
@@ -227,4 +239,4 @@ Cette partie décrit **le comportement du système et les interactions avec les 
 - Description de l’interface graphique ou des écrans impliqués.
 
 ---
-
+[[Index Analyse Informatique|🔙Index]] - [[Introduction aux principes d’analyse informatique|⬅️Introduction aux principes d’analyse informatique]] - ➡️

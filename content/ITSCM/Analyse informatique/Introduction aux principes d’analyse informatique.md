@@ -1,3 +1,11 @@
+---
+title: Introduction aux principes d’analyse informatique
+description: Cette note présente les bases de l’analyse informatique
+---
+
+[[Index Analyse Informatique|🔙Index]] - [[Diagramme de cas d'utilisation|➡️Diagramme de cas d'utilisation]]
+
+---
 ## Introduction 
 
 ### Pourquoi un cours d’analyse informatique ?
@@ -266,3 +274,8 @@ Décrit **le fonctionnement du système dans le temps**.
 > - [PlantUML](https://plantuml.com/fr/) – créer vos diagrammes UML rapidement
 > - [Lucidchart UML](https://www.lucidchart.com/pages/fr) – outil visuel en ligne
 > - [Visual Paradigm](https://online.visual-paradigm.com/) – modélisation UML professionnelle
+
+
+---
+
+[[Index Analyse Informatique|🔙Index]]  - [[Diagramme de cas d'utilisation|➡️Diagramme de cas d'utilisation]]
