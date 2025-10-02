@@ -21,12 +21,16 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
 
 ### Les acteurs
 
-- Un **acteur** représente un rôle joué par une **personne, un processus ou un système externe** qui interagit avec le système.
+Un **acteur** représente un rôle joué par une **personne, un processus ou un système externe** qui interagit avec le système.
 
-- **Représentation classique** : petit bonhomme avec le nom du rôle dessous.
-![[fig1.1.png]]
-- **Représentation alternative** : classeur stéréotypé << actor >>.
-![[fig1.2.png]]
+**Représentation classique** : petit bonhomme avec le nom du rôle dessous.
+> [!Example] Représentation classique
+> ![[fig1.1.png]]
+
+**Représentation alternative** : classeur stéréotypé << actor >>.
+
+> [!Example] Représentation alternative
+>![[fig1.2.png]]
 
 
 **Types d’acteurs :**
@@ -46,9 +50,13 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
 - Un **cas d’utilisation** décrit une **fonctionnalité observable par un acteur**.
 
 - **Représentation** : ellipse contenant un verbe à l’infinitif (ex. “Retirer de l’argent”).
-![[fig1.3.png]]
+
+>![[fig1.3.png]]
+
+
 - **Variante détaillée** : classeur stéréotypé << use case >> pour inclure attributs ou opérations.
-![[fig1.4.png]]
+
+>![[fig1.4.png]]
 
 **Règles à respecter :**
 
@@ -68,7 +76,7 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
     - Visualiser les **interactions principales**
     - Identifier ce qui est **inclus ou exclu** du système
 
-![[fig1.5.png]]
+>![[fig1.5.png]]
 
 
 ### Relations dans le diagramme
@@ -77,7 +85,7 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
 
 - **Association** : Une relation d'association est chemin de communication entre un acteur et un cas d'utilisation et est représenté un trait continu.
 
-![[fig1.6.png]]
+>![[fig1.6.png]]
 
 #### Relations entre cas d’utilisation
 
@@ -95,7 +103,7 @@ Les relations permettent de **montrer les dépendances et interactions entre les
     - Dépendances : flèche en pointillé
     - Généralisation : flèche pleine avec triangle fermé
 
-![[fig1.7.png]]
+>![[fig1.7.png]]
 
 ###### Relation d’inclusion (<< include >>)
 
