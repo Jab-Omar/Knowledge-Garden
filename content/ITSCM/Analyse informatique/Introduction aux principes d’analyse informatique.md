@@ -190,6 +190,8 @@ Pour cela, il utilise des **modèles** :
 
 Ces modèles servent de langage commun entre le métier et la technique. C’est ici qu’intervient **UML (Unified Modeling Language)**, le standard de modélisation utilisé pour représenter visuellement les systèmes logiciels.
 
+
+
 ---
 
 ## 📐 UML (Unified Modeling Language)
