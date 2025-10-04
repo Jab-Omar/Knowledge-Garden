@@ -12,13 +12,13 @@ Here you can find my personal notes for ITS-CM (Computer Science bachelor) and N
 
 ## 📘 ITS-CM (Informatique / Computer Science)
 
-- **Analyse Informatique / Information Systems Analysis**  
+### Analyse Informatique / Information Systems Analysis
 
 [[Index Analyse Informatique|➡ Index Analyse Informatique]]
 
-- **À venir / Upcoming**  
-  D’autres cours seront ajoutés ici prochainement.  
-  More ITS-CM courses will be added soon.  
+### Electricité appliquée / Applied Electricity
+
+
 
 ---
 
