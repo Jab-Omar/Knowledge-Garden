@@ -16,8 +16,13 @@ Here you can find my personal notes for ITS-CM (Computer Science bachelor) and N
 
 [[Index Analyse Informatique|➡ Index Analyse Informatique]]
 
-### Electricité appliquée / Applied Electricity
+### Electricité  / Electricity
 
+➡ Electricité appliquée 
+
+### Programmation / Programming
+
+➡ [[Index initiation Programmation|Index Initiation à la programmation]]
 
 
 ---
