@@ -225,50 +225,81 @@ Il sert à créer des représentations compréhensibles par **les développeurs,
 - **Ne définit pas de processus** : UML est un langage, pas une méthodologie.
 - **Certaines représentations sont limitées** : par exemple, il n’est pas toujours adapté pour modéliser les données complexes d’une base de données (préférer MCD ou ERD).
 
+---
+## Les trois points de vue UML
 
-### Les diagrammes UML principaux
-
-#### 1️⃣ Structure statique
-
-Décrit la **composition du système** et ses relations fixes.
-
-- **Diagrammes de classes** : classes et relations (héritage, association).
-- **Diagrammes d’objets** : instances concrètes des classes.
-- **Diagrammes de paquetages** : organisation des modules et packages du projet.
-
-#### 2️⃣ Architecture
-
-Décrit **comment le système est organisé**.
-
-- **Diagrammes de composants** : composants logiciels et leurs dépendances.
-- **Diagrammes de déploiement** : architecture matérielle et déploiement des composants.
-
-#### 3️⃣ Comportement dynamique
-
-Décrit **le fonctionnement du système dans le temps**.
-
-- **Diagrammes de cas d’utilisation** : interactions utilisateurs / système.
-- **Diagrammes d’états (statechart)** : évolution d’un objet ou système selon les événements.
-- **Diagrammes d’activités** : flux de travail et processus.
-- **Diagrammes de séquence** : interactions entre objets au fil du temps.
-- **Diagrammes de communication** : échanges entre objets.
-- **Diagrammes d’interaction** (overview, timing) : vue synthétique ou temporelle des interactions.
-
-> 💡 **Exemple concret** :
-> 
-> - Diagramme de cas d’utilisation pour un site e-commerce : “Passer une commande”, “Ajouter un produit au panier”, “Consulter l’historique des commandes”.
-> - Diagramme de séquence : décrit comment les objets Client, Panier et Commande interagissent pour finaliser l’achat.
+Pour bien modéliser un système en UML, il faut l’observer sous **trois angles complémentaires** :  
+le **fonctionnel**, le **statique** et le **dynamique**.  
+Chaque point de vue répond à une question différente sur le système et s’appuie sur des diagrammes spécifiques.
 
 
-#### Bonnes pratiques UML
+> [!note] Les trois points de vue classiques de modélisation
+>![[fig 0.1.png]]
 
-1. **Exactitude** : respecter la syntaxe UML.
-2. **Précision** : éviter toute ambiguïté dans les relations et attributs.
-3. **Concision** : ne pas surcharger les diagrammes avec des détails inutiles.
-4. **Complétude** : représenter tous les aspects essentiels du système.
-5. **Cohérence** : maintenir l’uniformité et éviter les contradictions.
-6. **Compréhensibilité** : diagrammes lisibles par toutes les parties prenantes.
-7. **Uniformité** : appliquer un style homogène dans tous les diagrammes.
+
+### 1️⃣ Le point de vue **fonctionnel**
+
+> **Question clé :** _Qu’est-ce que le système doit faire ?_
+
+Ce point de vue décrit les **besoins et les fonctionnalités** du système **du point de vue des utilisateurs** (ou d’autres systèmes).  
+Il est utilisé lors de la phase d’**analyse** pour comprendre **les attentes métiers** avant toute conception technique.
+
+#### 🔹 Diagrammes associés :
+
+- **Diagramme de cas d’utilisation** → décrit les interactions entre acteurs et système.
+- **Diagramme d’activités** → détaille les processus ou scénarios d’utilisation.
+
+#### 💡 Exemple :
+
+Dans un site e-commerce :
+
+- Un **acteur “Client”** peut _passer une commande_, _ajouter un produit au panier_ ou _payer en ligne_.
+- Le diagramme permet de visualiser toutes ces interactions à haut niveau, avant de penser au code.
+
+### 2️⃣ Le point de vue **statique**
+
+> **Question clé :** _De quoi le système est-il composé ?_
+
+Ce point de vue modélise la **structure interne** du système, c’est-à-dire les **objets, classes et relations** entre eux.  
+C’est la base de la **programmation orientée objet**.
+
+#### 🔹 Diagrammes associés :
+
+- **Diagramme de classes** → montre les classes, attributs, méthodes et relations (association, héritage).
+- **Diagramme d’objets** → illustre un exemple concret du diagramme de classes avec des instances.
+- **Diagramme de paquetages** → organise le système en modules ou sous-systèmes.
+
+#### 💡 Exemple :
+
+Une classe `Commande` contient une liste de `Produit` et une méthode `calculerTotal()`.  
+Le diagramme de classes permet de comprendre cette structure sans encore parler de base de données ni d’interface.
+
+
+### 3️⃣ Le point de vue **dynamique**
+
+> **Question clé :** _Comment le système se comporte-t-il dans le temps ?_
+
+Ce point de vue montre **le fonctionnement du système** :  
+comment les objets interagissent, comment un processus se déroule, et comment un objet change d’état.
+
+#### 🔹 Diagrammes associés :
+
+- **Diagramme de séquence** → montre les échanges entre objets au fil du temps.
+- **Diagramme d’activités** → illustre un flux de traitement ou un workflow.
+- **Diagramme d’états (statechart)** → décrit les changements d’état d’un objet.
+- **Diagramme de communication / interaction** → visualise les liens et messages échangés entre objets.
+
+#### 💡 Exemple :
+
+Dans un distributeur automatique :
+
+1. Le client insère sa carte.
+2. Le système demande le code PIN.
+3. La banque vérifie le solde.
+4. L’argent est distribué.  
+    Ce scénario est illustré par un **diagramme de séquence**.
+
+---
 
 > 🔗 **Ressources utiles** :
 > 

@@ -26,28 +26,18 @@ Il montre **les fonctionnalités principales** et **qui interagit avec le systè
 
 Un **acteur** représente un rôle joué par une **personne, un processus ou un système externe** qui interagit avec le système.
 
-**Représentation classique** : petit bonhomme avec le nom du rôle dessous.
+Un **acteur** peut être représenté de plusieurs façons :
 
-> [!Example] Représentation classique
-> ![[fig1.1.png]]
+- 👤 **Stick man (petit bonhomme)** : forme la plus courante pour les **acteurs humains**.
+- 🟦 **Rectangle avec le mot-clé `<<actor>>`** : souvent utilisé pour représenter un **système externe** ou une **application connectée**.
+- ⚙️ Certains outils UML proposent une **forme intermédiaire**, combinant les deux styles.
 
-**Représentation alternative** : classeur stéréotypé << actor >>.
+> [!Example] Représentations graphiques possibles d’un acteur
+> ![[lesActeurs.png]]
+> 💡 Utilise le _stick man_ pour les utilisateurs humains,  
+et la **forme rectangulaire** pour les systèmes ou services externes.
 
-> [!Example] Représentation alternative
->![[fig1.2.png]]
 
-
-**Types d’acteurs :**
-
-- **Principal** : celui qui bénéficie directement d’un cas d’utilisation. Se situe a gauche du système.
-- **Secondaire** : celui qui fournit des informations ou services complémentaires. Se situe à droite du système.
-
-**Conseils pour identifier les acteurs :**
-
-- Rechercher tous les rôles externes qui interagissent avec le système.
-- Inclure les systèmes ou dispositifs externes (ex. imprimantes, API externes).
-- Regrouper les utilisateurs ayant le même rôle sous un seul acteur.
-- Vérifier que chaque acteur communique **directement** avec le système.
 
 ### Les cas d’utilisation
 

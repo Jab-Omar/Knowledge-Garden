@@ -24,6 +24,9 @@ Here you can find my personal notes for ITS-CM (Computer Science bachelor) and N
 
 ➡ [[Index initiation Programmation|Index Initiation à la programmation]]
 
+### Logique combinatoire et sequentielle
+
+➡ [[Index Logique|Index Logique]]
 
 ---
 
